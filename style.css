@@ -21,6 +21,8 @@ body {
     background-size: cover;
 }
 
+/* header */
+
 header {
     max-width: 1300px;
     margin: 0 auto;
@@ -43,7 +45,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130.7px;
+    width: 130px;
     height: 48px;
     background: #4E47FF;
     border-radius: 10px;
@@ -51,3 +53,21 @@ nav {
     color: white;
     font-size: 1em;
 }
+
+/* hero section */
+
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero > h1 {
+    font-size: 4rem;
+    color: #252432;
+    text-align: center;
+}
+
