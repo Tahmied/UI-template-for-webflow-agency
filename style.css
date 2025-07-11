@@ -157,3 +157,68 @@ nav {
 .users-number-text-item {
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* review section */
+
+.reviews {
+    margin: 2rem auto;
+    max-width: 1300px;
+    margin-top: 4rem;
+}
+
+.review-heading {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.review-item {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    border: 1px solid #F2EDED;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.review-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.reviewer {
+    display: flex;
+    gap: 1rem;
+}
+
+.user-profile > img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.review-date {
+   color:rgba(0, 0, 0, 0.5);
+}
