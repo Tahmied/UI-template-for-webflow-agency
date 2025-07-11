@@ -54,6 +54,12 @@ nav {
     color: white;
     font-size: 1em;
     cursor: pointer;
+    transition: background-color 0.2s ease , transform 0.2s ease;
+}
+
+.normal-btn:hover {
+    background-color: #3D36E0;
+    transform: translateY(-2px);
 }
 
 /* hero section */
@@ -254,6 +260,10 @@ nav {
     border-radius: 30px;
 }
 
+.cta-container button {
+    width: 200px;
+}
+
 /* contact section */
 
 .contact {
@@ -299,6 +309,10 @@ nav {
   margin-bottom: 1rem;
 }
 
+.message-textarea {
+    height: 150px;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #4E47FF;
@@ -314,6 +328,12 @@ nav {
   font-size: 1em;
   font-weight: 600;
   cursor: pointer;
+  transition: transform 0.2s ease , background-color 0.2s ease;
+}
+
+.contact-form button:hover {
+    transform: translateY(-3px);
+    background-color: #3D36E0;
 }
 
 /* footer */
