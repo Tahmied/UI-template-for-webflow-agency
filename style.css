@@ -46,7 +46,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    width: 140px;
     height: 48px;
     background: #4E47FF;
     border-radius: 10px;
@@ -70,6 +70,42 @@ nav {
     font-size: 4rem;
     color: #252432;
     text-align: center;
+}
+
+/* actions section */
+
+.action {
+    display: flex;
+    max-width: 1300px;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-heading {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.action-text {
+    color:rgba(37, 36, 50, 0.5);
+    font-size: 1.5em;
+}
+
+.action-left > button {
+    width: 200px;
+}
+
+.action-right-img {
+    border-radius: 30px;
+    width: 400px;
 }
 
 /* users section */
