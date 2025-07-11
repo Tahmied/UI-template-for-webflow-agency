@@ -369,4 +369,9 @@ footer {
     text-decoration: none;
     color: #8987A1;
     cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.footer-menu-items:hover {
+    color: #000;
 }
